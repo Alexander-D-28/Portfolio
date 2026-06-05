@@ -4,6 +4,9 @@
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .navbar a{
     color: white;
@@ -14,4 +17,7 @@
 }
 .navbar li{
     float: left;
+}
+.navbar a:hover {
+    background-color: lightgray;
 }
