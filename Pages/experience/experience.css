@@ -1,7 +1,11 @@
 h2{
     text-align: center;
 }
-div{
+.exp {
     border: 1px solid black;
     width: 1000px;
+    display: flex;
+}
+.content {
+    margin-left: 10px;
 }
