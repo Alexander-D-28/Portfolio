@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 35px;
+}
+.dog {
+    margin-left: 25px;
+}
