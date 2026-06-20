@@ -13,8 +13,9 @@ h2{
     border: 1px solid black;
     width: 1000px;
     display: flex;
-    margin-top: 10px;
     align-items: center;
+    margin: auto;
+    margin-top: 10px;
 }
 .content {
     margin-left: 10px;
