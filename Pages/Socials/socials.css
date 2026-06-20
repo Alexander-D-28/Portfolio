@@ -11,13 +11,21 @@ h2{
 
 .email {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .linkedIn {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .github {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .strava {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
