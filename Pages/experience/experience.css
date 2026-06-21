@@ -12,15 +12,31 @@ h2{
 .exp {
     border: 1px solid black;
     width: 1000px;
-    display: flex;
-    margin-top: 10px;
     align-items: center;
     margin: auto;
     margin-top: 10px;
+}
+.top-content {
+    display: flex;
+    align-items: center;
 }
 .content {
     margin-left: 10px;
 }
 h4{
     font-style: italic;
+}
+
+#tvhLogo {
+    margin-right: 5px;
+    margin-left: -10px;
+}
+#MTULogo {
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#HIDELogo {
+    margin-right: 15px;
+    margin-left: -5px;
 }
