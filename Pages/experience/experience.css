@@ -5,41 +5,41 @@ header{
 h2{
     margin-top: 35px;
 }
-.dog {
+.dog{
     margin-left: 25px;
 }
 
-.exp {
+.exp{
     border: 1px solid black;
-    width: 1000px;
+    width: 925px;
     align-items: center;
     margin: auto;
     margin-top: 10px;
 }
-.top-content {
+.top-content{
     display: flex;
     align-items: center;
 }
-.content {
+.content{
     margin-left: 10px;
 }
 h4{
     font-style: italic;
 }
 
-#tvhLogo {
+#tvhLogo{
     margin-right: 5px;
     margin-left: -10px;
     height: 100px;
     background-color: white;
 }
-#MTULogo {
+#MTULogo{
     margin-right: -30px;
     margin-left: -45px;
     margin-top: 5px;
     height: 100px;
 }
-#HIDELogo {
+#HIDELogo{
     margin-right: 15px;
     margin-left: -5px;
     margin-top: 5px;
