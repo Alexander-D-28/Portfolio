@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 35px;
+}
+.dog{
+    margin-left: 25px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.linkedIn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.strava {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social {
+    border: 1px solid black;
+    width: 926px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.details {
+    margin-top: -10px;
+}
+.heading {
+    text-align: center;
+}
