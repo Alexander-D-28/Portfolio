@@ -13,25 +13,33 @@ h2{
     cursor: pointer;
 }
 
+body {
+    background-color: #61CDFF;
+}
+
 .email {
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: white;
 }
 .linkedIn {
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: white;
 }
 .github {
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: white;
 }
 .strava {
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: white;
 }
 
 .social {
@@ -40,6 +48,7 @@ h2{
     align-items: center;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
 }
 .details {
     margin-top: -10px;

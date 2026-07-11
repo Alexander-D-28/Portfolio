@@ -13,6 +13,10 @@ h2{
     cursor: pointer;
 }
 
+body {
+    background-color: #61CDFF;
+}
+
 .projects {
     border: 1px solid black;
     width: 925px;
@@ -20,6 +24,7 @@ h2{
     align-items: center;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
 }
 .content {
     margin-left: 10px;

@@ -12,3 +12,7 @@ h2{
 .dog:hover {
     cursor: pointer;
 }
+
+body {
+    background-color: #61CDFF;
+}

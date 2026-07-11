@@ -1,6 +1,6 @@
 .navbar ul{
     list-style-type: none;
-    background-color: darkgray;
+    background-color: #4698BE;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -19,5 +19,5 @@
     float: left;
 }
 .navbar a:hover {
-    background-color: lightgray;
+    background-color: #04abe2;
 }

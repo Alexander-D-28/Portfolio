@@ -13,12 +13,17 @@ h2{
     cursor: pointer;
 }
 
+body {
+    background-color: #61CDFF;
+}
+
 .exp{
     border: 1px solid black;
     width: 925px;
     align-items: center;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
 }
 .top-content{
     display: flex;
