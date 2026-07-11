@@ -1,12 +1,16 @@
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 h2{
     margin-top: 35px;
 }
 .dog {
-    margin-left: 25px;
+    margin-left: 15px;
+}
+.dog:hover {
+    cursor: pointer;
 }
 
 .name {
