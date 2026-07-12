@@ -17,10 +17,6 @@ body {
     background-color: #61CDFF;
 }
 
-.name {
-    text-align: center;
-}
-
 .rotatingImages {
     width: 925px;
     display: flex;
@@ -55,6 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
 }
 #hideLogo {
     width: 80px;
@@ -68,4 +65,8 @@ body {
     margin: auto;
     margin-top: 10px;
     background-color: white;
+}
+.aboutMeText {
+    margin-left: 10px;
+    margin-right: 10px;
 }
