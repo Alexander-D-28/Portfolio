@@ -1,0 +1,46 @@
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.linkedIn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.email p,
+.linkedIn p,
+.github p, 
+.strava p
+{
+    margin: 0;
+}
+.strava {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.social {
+    border: 1px solid black;
+    width: 926px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.details {
+    margin-top: 10px;
+}
+.heading {
+    text-align: center;
+}

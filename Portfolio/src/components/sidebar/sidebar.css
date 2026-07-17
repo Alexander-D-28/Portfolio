@@ -1,0 +1,30 @@
+.dog {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.dog:hover {
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+
+    background-color: #4698BE;
+    color: white;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pages button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}

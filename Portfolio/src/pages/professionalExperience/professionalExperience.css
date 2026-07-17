@@ -1,0 +1,39 @@
+.exp{
+    border: 1px solid black;
+    width: 925px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); */
+}
+.top-content{
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-left: 10px;
+}
+h4{
+    font-style: italic;
+}
+
+#tvhLogo{
+    margin-right: 5px;
+    margin-left: -10px;
+    height: 100px;
+    background-color: white;
+}
+#MTULogo{
+    margin-right: -30px;
+    margin-left: -45px;
+    margin-top: 5px;
+    height: 100px;
+    width: auto;
+}
+#HIDELogo{
+    margin-right: 15px;
+    margin-left: -5px;
+    margin-top: 5px;
+    height: 100px;
+}

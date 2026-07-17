@@ -1,0 +1,52 @@
+.rotatingImages {
+    width: 925px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bikeImg {
+    width: 400px;
+    height: auto;
+}
+
+.leftIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tvhLogo {
+    width: 100px;
+    height: auto;
+}
+#MTULogo {
+    width: 120px;
+    height: auto;
+}
+
+.rightIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+#hideLogo {
+    width: 80px;
+    height: auto;
+}
+
+.aboutMe {
+    border: 1px solid black;
+    width: 925px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.aboutMeText {
+    margin: 10px;
+}

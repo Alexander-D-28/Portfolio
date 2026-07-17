@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+    background-color: #23b8fd;
+}
