@@ -6,12 +6,13 @@ function Sidebar({setPage}) {
     return (
         <aside className="sidebar">
 
-            <h2 style={{color: "white"}}>Alexander's Portfolio</h2>
-
-            <div className="dog" style={{color: "white"}}>
+            <div className="title">
+                <h2>Alexander's Portfolio</h2>
+            </div>
+            <div className="dog">
                 <Dog />
             </div>
-
+    
             <div className="pages">
                 <button onClick={() => setPage("home")}>
                     Home
