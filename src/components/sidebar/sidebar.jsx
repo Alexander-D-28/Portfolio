@@ -52,6 +52,10 @@ function Sidebar({page, setPage}) {
                 </button>
             </div>
 
+            <div className="version">
+                <p>Version: 3.2</p>
+            </div>
+
         </aside>
     );
 }

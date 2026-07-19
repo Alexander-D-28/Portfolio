@@ -49,3 +49,9 @@
 .pages button.selected {
     background-color: #d6d6d6;
 }
+
+.version {
+    position: fixed;
+    bottom: 5px;    
+    left: 15px;
+}
