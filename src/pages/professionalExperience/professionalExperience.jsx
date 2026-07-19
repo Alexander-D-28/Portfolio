@@ -1,8 +1,8 @@
 import "./professionalExperience.css";
 
-import tvhLogo from "../../assets/images/Treevah logo.png";
-import MTULogo from "../../assets/images/MTU logo.png";
-import HIDELogo from "../../assets/images/HIDE logo.png";
+import tvhLogo from "../../images/Treevah logo.png";
+import MTULogo from "../../images/MTU logo.png";
+import HIDELogo from "../../images/HIDE logo.png";
 
 export default function Experience() {
     return (

@@ -1,15 +1,15 @@
 import "./personalProjects.css";
 
-import LeetCodeStatus from "../../assets/images/LeetCode.png";
+import LeetCodeStatus from "../../images/LeetCode.png";
 
 export default function Projects() {
     return (
         <div className="personalProjects">
             <div className="projects">
                 <div className="content">
-                    <h3>This website (be more hireable)</h3>
+                    <h3>This website</h3>
                     <p>
-Made this website using HTML and CSS to display more than what my resume can.
+Made this website using JavaScript and Reach with HTML and CSS components to display more than what my resume can.
 Shows a lot about me and makes me more hireable, 
 hopefully :)
                     </p>

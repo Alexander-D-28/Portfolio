@@ -47,7 +47,10 @@ function App() {
 
     return (
         <>
-            <Sidebar setPage={setPage} />
+            <Sidebar 
+                page={page}
+                setPage={setPage} 
+            />
 
             <main>
                 {displayPage()}

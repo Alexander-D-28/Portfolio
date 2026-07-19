@@ -1,22 +1,49 @@
-.rotatingImages {
+.home2 {
+    border: 1px solid black;
     width: 925px;
-    display: flex;
+    height: auto;
     align-items: center;
-    justify-content: center;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: white;
+    padding: 25px;
 }
-#bikeImg {
+
+.name {
+    margin-bottom: 20px;
+}
+
+.rotatingImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 30px;
+}
+#imageDisplay {
     width: 400px;
     height: auto;
 }
+.arrow button {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
-.leftIcons {
+.quote {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.icons {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 #tvhLogo {
     width: 100px;
@@ -26,27 +53,11 @@
     width: 120px;
     height: auto;
 }
-
-.rightIcons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-}
 #hideLogo {
     width: 80px;
     height: auto;
 }
 
 .aboutMe {
-    border: 1px solid black;
-    width: 925px;
-    align-items: center;
-    margin: auto;
-    margin-top: 10px;
-    background-color: white;
-}
-.aboutMeText {
-    margin: 10px;
+    margin-top: 25px;
 }

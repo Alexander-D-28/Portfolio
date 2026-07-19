@@ -2,34 +2,52 @@ import "./sidebar.css";
 
 import Dog from "../dog/dog"
 
-function Sidebar({setPage}) {
+function Sidebar({page, setPage}) {
     return (
         <aside className="sidebar">
 
             <div className="title">
                 <h2>Alexander's Portfolio</h2>
             </div>
-            <div className="dog">
+            <div className="dog" title="Click the dog">
                 <Dog />
             </div>
     
             <div className="pages">
-                <button onClick={() => setPage("home")}>
+                <button 
+                    className={page === "home" ? "selected" : ""}
+                    onClick={() => setPage("home")}
+                >
                     Home
                 </button>
-                <button onClick={() => setPage("experience")}>
+                <button
+                    className={page === "experience" ? "selected" : ""}
+                    onClick={() => setPage("experience")}
+                >
                     Professional Experience
                 </button>
-                <button onClick={() => setPage("projects")}>
+                <button
+                    className={page === "projects" ? "selected" : ""}
+                    onClick={() => setPage("projects")}
+                >
                     Personal Projects
                 </button>
-                <button onClick={() => setPage("techstack")}>
+                <button
+                    className={page === "techstack" ? "selected" : ""}
+                    onClick={() => setPage("techstack")}
+                >
                     Techstack
                 </button>
-                <button onClick={() => setPage("coursework")}>
+                <button
+                    className={page === "coursework" ? "selected" : ""}
+                    onClick={() => setPage("coursework")}
+                >
                     Coursework
                 </button>
-                <button onClick={() => setPage("contact")}>
+                <button
+                    className={page === "contact" ? "selected" :""}
+                    onClick={() => setPage("contact")}
+                >
                     Socials / Contact Info
                 </button>
             </div>

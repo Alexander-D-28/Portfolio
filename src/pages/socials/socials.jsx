@@ -1,9 +1,9 @@
 import "./socials.css";
 
-import GmailIcon from "../../assets/images/Gmail.png";
-import LinkedInIcon from "../../assets/images/LinkedIn.png";
-import GithubIcon from "../../assets/images/Github.png";
-import StravaIcon from "../../assets/images/Strava.png";
+import GmailIcon from "../../images/socialIcons/Gmail.png";
+import LinkedInIcon from "../../images/socialIcons/LinkedIn.png";
+import GithubIcon from "../../images/socialIcons/Github.png";
+import StravaIcon from "../../images/socialIcons/Strava.png";
 
 export default function Contact() {
     return (
