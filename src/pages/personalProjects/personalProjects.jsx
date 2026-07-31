@@ -9,7 +9,7 @@ export default function Projects() {
                 <div className="content">
                     <h3>This website</h3>
                     <p>
-Made this website using JavaScript and Reach with HTML and CSS components to display more than what my resume can.
+Made this website using JavaScript, React, HTML and CSS components to display more than what my resume can.
 Shows a lot about me and makes me more hireable, 
 hopefully :)
                     </p>

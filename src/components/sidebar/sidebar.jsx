@@ -38,12 +38,12 @@ function Sidebar({page, setPage}) {
                 >
                     Techstack
                 </button>
-                <button
+                {/* <button
                     className={page === "coursework" ? "selected" : ""}
                     onClick={() => setPage("coursework")}
                 >
                     Coursework
-                </button>
+                </button> */}
                 <button
                     className={page === "contact" ? "selected" :""}
                     onClick={() => setPage("contact")}
@@ -53,7 +53,7 @@ function Sidebar({page, setPage}) {
             </div>
 
             <div className="version">
-                <p>Version: 3.2</p>
+                <p>Version: 3.3</p>
             </div>
 
         </aside>
