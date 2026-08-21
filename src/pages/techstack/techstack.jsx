@@ -5,7 +5,7 @@ export default function Techstack() {
         <div> 
             <div className="techStackContainer">
                 <div className="techStack">
-                    <h3>Languages:</h3>
+                    <h3>Languages / Libraries:</h3>
                     <ul>
                         <li>Java</li>
                         <li>JavaScript </li>
@@ -16,6 +16,7 @@ export default function Techstack() {
                         <li>Assembly</li>
                         <li>PHP</li>
                         <li>SQL</li>
+                        <li>React</li>
                     </ul>
                 </div>
                 <div className="techStack">

@@ -45,7 +45,7 @@ export default function Home() {
                     </div>
                 </div>
                 <p className="quote">
-                    Good with code, better with people
+                    Line by line, away we go
                 </p>
                 <hr></hr>
                 <div className="icons">

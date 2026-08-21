@@ -1,6 +1,8 @@
 import "./professionalExperience.css";
 
 import tvhLogo from "../../images/Treevah logo.png";
+import contributions from "../../images/Contributions.png";
+import breakdown from "../../images/Breakdown.png";
 import MTULogo from "../../images/MTU logo.png";
 import HIDELogo from "../../images/HIDE logo.png";
 
@@ -31,6 +33,10 @@ In addition to developing new features, I coordinated tasks across the front-end
 collaborated with design and other leads, reviewed feature implementations, managed the pull request process, 
 and provided technical guidance to interns to ensure high-quality code and smooth production.
                     </p>
+                </div>
+                <div className="githubLogs">
+                    <img src={contributions} id="contributions" />
+                    <img src={breakdown} id="breakdown" />
                 </div>
             </div>
 

@@ -54,4 +54,67 @@
     position: fixed;
     bottom: 5px;    
     left: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.topGroup-popup {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.topGroup-popup h3 {
+    margin: 0;
+}
+
+.close-popup {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+.popup {
+    background: white;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.10);
+    color: black;
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.popup-content {
+    text-align: center;
+    margin: 10px;
+}
+.popup-content ul {
+    display: inline-block;
+}
+.popup-content p {
+    margin: 15px;
+}
+
+.future {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.newAdditions {
+    list-style-position: inside;
+    text-align: left;
 }
