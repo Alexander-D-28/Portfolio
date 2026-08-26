@@ -48,7 +48,7 @@ and provided technical guidance to interns to ensure high-quality code and smoot
                         </a>
                         <div>
                             <h3>SAM Leader @ Michigan Tech College of Computing</h3>
-                            <h4>- Spring Semester 2026</h4>
+                            <h4>- January 2026 - Present (During Academic Semesters)</h4>
                         </div>
                     </div>
                     <p>
