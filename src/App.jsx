@@ -10,6 +10,7 @@ import Coursework from "./pages/coursework/coursework";
 import Contact from "./pages/socials/socials";
 
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
 
@@ -55,6 +56,8 @@ function App() {
             <main>
                 {displayPage()}
             </main>
+
+            <Analytics /> 
         </>
     );
 }
