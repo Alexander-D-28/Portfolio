@@ -1,6 +1,7 @@
 import "./home.css";
 import {useState} from "react";
 
+import CHRobinsonLogo from "../../images/C.H. Robinson.png";
 import tvhLogo from "../../images/Treevah logo.png";
 import MTULogo from "../../images/MTU logo.png";
 import HIDELogo from "../../images/HIDE logo.png";
@@ -49,6 +50,9 @@ export default function Home() {
                 </p>
                 <hr></hr>
                 <div className="icons">
+                    <a href="https://www.chrobinson.com/en-us/" target="_blank" rel="noopener noreferrer">
+                        <img src={CHRobinsonLogo} id="CHRobinsonLogo" />
+                    </a>
                     <a href="https://www.treevah.com" target="_blank" rel="noopener noreferrer">
                         <img src={tvhLogo} id="tvhLogo"/>
                     </a>

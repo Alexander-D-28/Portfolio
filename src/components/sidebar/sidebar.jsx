@@ -72,7 +72,7 @@ function Sidebar({page, setPage}) {
                     >
                         <div className="popup-content">
                             <div className="topGroup-popup">
-                                <h3>Version 3.4</h3>
+                                <h3>Version 3.4.1</h3>
                                 <button
                                     className="close-popup"
                                     title="Close Popup"
@@ -81,12 +81,10 @@ function Sidebar({page, setPage}) {
                                     X
                                 </button>
                             </div>
-                            <p>Last Updated: 8/21/2026</p>
+                            <p>Last Updated: 105/2026</p>
                             <p>Recent updates to my portfolio include the following:</p>
                             <ul className="newAdditions">
-                                <li>Version History Popup Details</li>
-                                <li>Treevah github images</li>
-                                <li>Techstack updates</li>
+                                <li>Adding C.H. Robinson as upcoming experience</li>
                             </ul>
                         </div>
                         <p className="future">Many more updates are planned for my portfolio, stay tunned :)</p>

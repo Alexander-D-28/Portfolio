@@ -47,6 +47,10 @@
     justify-content: center;
     gap: 50px;
 }
+#CHRobinsonLogo {
+    height: 90px !important;
+    width: auto;
+}
 #tvhLogo {
     width: 100px;
     height: auto;

@@ -1,5 +1,6 @@
 import "./professionalExperience.css";
 
+import CHRobinsonLogo from "../../images/C.H. Robinson.png";
 import tvhLogo from "../../images/Treevah logo.png";
 import contributions from "../../images/Contributions.png";
 import breakdown from "../../images/Breakdown.png";
@@ -9,6 +10,27 @@ import HIDELogo from "../../images/HIDE logo.png";
 export default function Experience() {
     return (
         <div classNameName="professionalExp">
+
+            <div className="exp">
+                <div className="content">
+                    <div className="top-content">
+                        <a href="https://www.chrobinson.com/en-us/" target="_blank" rel="noopener noreferrer">
+                            <img src={CHRobinsonLogo} id="CHRobinsonLogo" />
+                        </a>
+                        <div>
+                            <h3>Software Engineer Intern @ C.H. Robinson</h3>
+                            <h4>- Summer 2027</h4>
+                        </div>
+                    </div>
+                    <p>
+                        Internship for summer 2027 :)
+                    </p>
+                    <p>
+                        Will update after the internship with more details about my experience there
+                    </p>
+                </div>
+            </div>
+
             <div className="exp">
                 <div className="content">
                     <div className="top-content">
@@ -87,6 +109,7 @@ engineering organization.
                     </p>
                 </div>
             </div>
+            
         </div>
     );
 }
