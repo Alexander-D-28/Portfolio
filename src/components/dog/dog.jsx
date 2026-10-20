@@ -1,26 +1,38 @@
 import {useState} from "react";
 
-const dog1 = `
+const dogs = [
+`
   __      _
 o'')}____//
 \`_/      )
 (_(_/-(_/
-`;
-const dog2 = String.raw`
+`,
+String.raw`
  /^ ^\
 / 0 0 \
 V\ Y /V
  / - \
  |    \
  || (__V
-`;
+`,
+String.raw`
+     _     /)---(\    
+     \\   (/ . . \)       
+      \\__)-\(*)/        
+      \_       (_        
+      (___/-(____)
+`,
+];
 
 export default function Dog() {
-    const [showingDog1, setShowingDog1] = useState(true);
+    const[currentImage, setCurrentImage] = useState(0);
+    const nextImage = () => {
+        setCurrentImage((prev) => (prev+1) % dogs.length);
+    }
 
     return (
-        <pre onClick={() => setShowingDog1(!showingDog1)}>
-            {showingDog1 ? dog1 : dog2}
+        <pre onClick={nextImage}>
+            {dogs[currentImage]}
         </pre>
     );
 }
